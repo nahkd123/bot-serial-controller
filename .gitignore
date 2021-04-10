@@ -1,0 +1,5 @@
+# TypeScript generated files
+/build
+
+# NodeJS modules
+/node_modules

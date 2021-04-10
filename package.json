@@ -1,0 +1,21 @@
+{
+  "name": "@nahkd123/serialport-bot-controller-web",
+  "version": "0.0.0",
+  "description": "A web package for SerialPort bot controller",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "http-server",
+    "build": "tsc -b",
+    "production": "tsc -b tsconfig.prod.json"
+  },
+  "keywords": [
+    "controller"
+  ],
+  "author": "nahkd123",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@types/w3c-web-serial": "^1.0.1",
+    "http-server": "^0.12.3",
+    "typescript": "^4.2.4"
+  }
+}
